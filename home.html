@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<div class="video-bg">
+  <video autoplay loop muted playsinline>
+    <source src="textures/background.mp4" type="video/mp4">
+  </video>
+</div>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Resilence SMP — Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+function copyIP() {
+  const text = document.getElementById("serverIp").innerText;
+  navigator.clipboard.writeText(text);
+}
+</script>
+
+<body>
+
+<header class="site-header">
+  <img src="textures/logo.png" class="site-logo" alt="Resilence SMP Logo">
+
+  <h1>Resilence SMP</h1>
+  <div class="page-title">Home</div>
+  <div class="ip-copy">
+  <span id="serverIp" class="ip-text">play.resilence.net</span>
+  <button class="ip-copy-btn" onclick="copyIP()" aria-label="Salin IP">📋</button>
+</div>
+
+</header>
+
+<nav>
+  <a href="home.html">Home</a>
+  <a href="changelog.html">Changelog</a>
+  <a href="news.html">News</a>
+  <a href="store.html">Store</a>
+  <a href="support.html">Support</a>
+</nav>
+
+<div class="container home-grid">
+  <div class="left-big-card">
+    <div class="card">
+      <h2>Selamat datang!</h2>
+      <p>Ini adalah server Minecraft Hardcore, pelajari lebih lanjut sebelum bermain.</p>
+      <img src="https://i.ytimg.com/vi/wlnrpoZ9OHE/maxresdefault.jpg" alt="Contoh Gambar">
+    </div>
+    <div class="card">
+      <h2>Berita Terbaru</h2>
+      <p>info<br>info<br>info</p>
+      <img src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2023/04/minecraft-shaders-unreal.jpg" alt="Contoh Gambar">
+    </div>
+  </div>
+  <div class="right-small-stack">
+    <div class="card small-card"><h3>Info 1</h3><p>Tips & trik bermain.</p></div>
+    <div class="card small-card"><h3>Info 2</h3><p>Peraturan.</p></div>
+    <div class="card small-card"><h3>Info 3</h3><p>Pembaruan terbaru.</p></div>
+    <div class="card small-card"><h3>Info 4</h3><p>Leaderboard player top.</p></div>
+  </div>
+</div>
+
+<footer>© 2025 Resilence SMP</footer>
+</body>
+</html>

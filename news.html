@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<div class="video-bg">
+  <video autoplay loop muted playsinline>
+    <source src="textures/background.mp4" type="video/mp4">
+  </video>
+</div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resilience SMP — News</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+function copyIP() {
+  const text = document.getElementById("serverIp").innerText;
+  navigator.clipboard.writeText(text);
+}
+</script>
+
+<body>
+
+<header class="site-header">
+  <img src="textures/logo.png" class="site-logo" alt="Resilence SMP Logo">
+
+  <h1>Resilence SMP</h1>
+  <div class="page-title">News</div>
+  <div class="ip-copy">
+  <span id="serverIp" class="ip-text">play.resilence.net</span>
+  <button class="ip-copy-btn" onclick="copyIP()" aria-label="Salin IP">📋</button>
+</div>
+
+</header>
+
+<nav>
+  <a href="home.html">Home</a>
+  <a href="changelog.html">Changelog</a>
+  <a href="news.html">News</a>
+  <a href="store.html">Store</a>
+  <a href="support.html">Support</a>
+</nav>
+
+<div class="container left-big-card">
+  <div class="card">
+    <img src="https://img.gurugamer.com/resize/1200x-/2022/08/04/wallpaper-minecraft-alex-steve-universe-0fb5.jpeg" alt="Update Terbaru">
+    <h2>Placeholder 1</h2>
+    <p>description<br>description</p>
+  </div>
+  <div class="card">
+    <img src="https://img.gurugamer.com/resize/1200x-/2022/08/04/wallpaper-minecraft-alex-steve-universe-0fb5.jpeg" alt="Patch Notes">
+    <h2>Placeholder 2</h2>
+    <p>description<br>description</p>
+  </div>
+  <div class="card">
+    <img src="https://img.gurugamer.com/resize/1200x-/2022/08/04/wallpaper-minecraft-alex-steve-universe-0fb5.jpeg" alt="Event Baru">
+    <h2>Placeholder 3</h2>
+    <p>description<br>description</p>
+  </div>
+  <div class="card">
+    <img src="https://img.gurugamer.com/resize/1200x-/2022/08/04/wallpaper-minecraft-alex-steve-universe-0fb5.jpeg" alt="Perbaikan Bug">
+    <h2>Placeholder 4</h2>
+    <p>description<br>description</p>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Resilence SMP
+</footer>
+
+</body>
+</html>
