@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<div class="video-bg">
+  <video autoplay loop muted playsinline>
+    <source src="textures/background.mp4" type="video/mp4">
+  </video>
+</div>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Resilence SMP — Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+function copyIP() {
+  const text = document.getElementById("serverIp").innerText;
+  navigator.clipboard.writeText(text);
+}
+</script>
+
+<body>
+
+<header class="site-header">
+  <img src="textures/logo.png" class="site-logo" alt="Resilence SMP Logo">
+
+  <h1>Re:Silence SMP</h1>
+  <div class="page-title">Home</div>
+  <div class="ip-copy">
+  <span id="serverIp" class="ip-text">resilencesmp.sytes.net</span>
+  <button class="ip-copy-btn" onclick="copyIP()" aria-label="Salin IP">📋</button>
+</div>
+
+</header>
+
+<nav>
+  <a href="home.html">Home</a>
+  <a href="changelog.html">Changelog</a>
+  <a href="news.html">News</a>
+  <a href="store.html">Store</a>
+  <a href="support.html">Support</a>
+</nav>
+
+<div class="container home-grid">
+  <div class="left-big-card">
+    <div class="card">
+      <h2>Selamat datang!</h2>
+      <p>Ini adalah server Minecraft SMP Semi Hardcore, pelajari lebih lanjut sebelum bermain.</p>
+      <img src="textures/main.png" alt="Contoh Gambar">
+    </div>
+    <div class="card">
+      <h2>Berita Terbaru</h2>
+      <p>Cooming in<br>15 Februari 2026<br>Stay Tune!</p>
+      <img src="textures/news/1.png" alt="Contoh Gambar">
+    </div>
+  </div>
+  <div class="right-small-stack">
+    <div class="card small-card"><h3>Tips Bermain</h3><p>Command: /menu atau /m<br>adalah Main Menu diserver ini, kamu bisa mencari sesuatu disana</p></div>
+    <div class="card small-card"><h3>Peraturan Server</h3><p>Cooming Soon</p></div>
+    <div class="card small-card"><h3>Catatan Dev</h3><p>Cooming Soon</p></div>
+    <div class="card small-card"><h3>Leaderboard Player TopUP</h3><p>1.<br>2.<br>3.<br>4.<br>5.<br>6.<br>7.<br>8.<br>9.<br>10.</p></div>
+  </div>
+</div>
+
+  <footer>
+    © 2026 Re:Silence SMP
+  </footer>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<div class="video-bg">
+  <video autoplay loop muted playsinline>
+    <source src="textures/background.mp4" type="video/mp4">
+  </video>
+</div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resilence SMP — Support</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+function copyIP() {
+  const text = document.getElementById("serverIp").innerText;
+  navigator.clipboard.writeText(text);
+}
+</script>
+
+<body>
+
+<header class="site-header">
+  <img src="textures/logo.png" class="site-logo" alt="Resilence SMP Logo">
+
+  <h1>Re:Silence SMP</h1>
+  <div class="page-title">Support</div>
+  <div class="ip-copy">
+  <span id="serverIp" class="ip-text">resilencesmp.sytes.net</span>
+  <button class="ip-copy-btn" onclick="copyIP()" aria-label="Salin IP">📋</button>
+</div>
+
+</header>
+
+  <!-- NAVIGASI -->
+<nav>
+  <a href="home.html">Home</a>
+  <a href="changelog.html">Changelog</a>
+  <a href="news.html">News</a>
+  <a href="store.html">Store</a>
+  <a href="support.html">Support</a>
+</nav>
+
+  <!-- KONTAINER UTAMA -->
+  <div class="container left-big-card">
+
+    <!-- BAGIAN KOMUNITAS -->
+    <div class="card">
+      <h2>Komunitas</h2>
+      <!-- Link WhatsApp -->
+      <p>
+        <a href="https://chat.whatsapp.com/GUUHKDG4o7SB9EpJPfR09m" target="_blank">
+          WhatsApp
+        </a>
+      </p>
+      <!-- Link Discord -->
+      <p>
+        <a href="https://discord.gg/KCHaaaj3D9" target="_blank">
+          Discord
+        </a>
+      </p>
+    </div>
+
+    <!-- BAGIAN BANTUAN TEKNIS -->
+    <div class="card">
+      <h2>Bantuan Teknis</h2>
+      <!-- Email -->
+      <p>
+        <a href="mailto:iniemailadmin@gmail.com">
+          iniemailadmin@gmail.com
+        </a>
+      </p>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Re:Silence SMP
+  </footer>
+
+</body>
+</html>
